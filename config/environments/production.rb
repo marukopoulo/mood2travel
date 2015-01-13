@@ -1,4 +1,6 @@
 Rails.application.configure do
+require "omniauth-twitter"
+require "omniauth-facebook"
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -79,4 +81,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.omniauth :facebook, '{ID}', '{SECRET}', :display => 'popup'
+  config.omniauth :twitter, '{ID}', '{SECRET}', :display => 'popup'
 end
