@@ -36,6 +36,5 @@ require "omniauth-facebook"
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
-  config.omniauth :facebook, '{ID}', '{SECRET}', :display => 'popup'
-  config.omniauth :twitter, '{ID}', '{SECRET}', :display => 'popup'
+
 end

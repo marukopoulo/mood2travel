@@ -82,6 +82,5 @@ require "omniauth-facebook"
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.omniauth :facebook, '{ID}', '{SECRET}', :display => 'popup'
-  config.omniauth :twitter, '{ID}', '{SECRET}', :display => 'popup'
+
 end
