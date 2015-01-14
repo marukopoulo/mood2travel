@@ -1,0 +1,3 @@
+id	youtubeId	city	country	hour  minute  director  directorUrl walker  walkerUrl
+1	QJPYLAwX1AA	Miami	United state of America	17	10	kafun_	http://www.kafun.jp	URASHIMA TARO	http://www.iino.jp
+2	l6RxtpPgsoY	Shonan Fujisawa Campus	Japan	18	0	JOHN	http://www.google.com	YAMADA TARO	http://www.google.com
