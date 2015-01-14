@@ -1,11 +1,21 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
 <head>
   <title>Mood2travel</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  
+    <style type="text/css" media="screen">
+    html, body { height:100%; background-color: #000000;}
+    body { margin:0; padding:0; overflow:hidden; }
+    #flashContent { width:100%; height:100%; }
+    </style>
 </head>
+
+
+
 <body>
 <% if user_signed_in? %>
     <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
@@ -15,7 +25,13 @@
 
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
+
 <%= yield %>
 
 </body>
 </html>
+
+
+
+
+
