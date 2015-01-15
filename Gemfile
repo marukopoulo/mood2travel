@@ -15,6 +15,8 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'carrierwave'
+gem 'fog', '~> 1.3.1'
+gem 'nokogiri','1.5.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
