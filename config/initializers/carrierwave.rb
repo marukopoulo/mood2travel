@@ -11,7 +11,6 @@ if Rails.env.development?
 config.fog_directory = 'mood2travel-develop' 
 else
 config.fog_directory = 'mood2travel' 
-config.cache_storage = :fog #キャッシュの場所をS3に変更
 config.cache_dir = "#{Rails.root}/tmp/uploads" #for Heroku
 end
 
