@@ -17,6 +17,9 @@ gem 'omniauth-twitter'
 gem 'carrierwave'
 gem 'fog', '~> 1.3.1'
 gem 'nokogiri','1.5.0'
+gem 'rails_admin','0.6.2'
+gem 'cancancan', '~> 1.9'
+gem 'enum_help'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
