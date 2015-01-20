@@ -203,7 +203,7 @@ id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
 202	WN5pcaUeyD8	Shimoiida,Tokyo	Japan	22	45	WalkingJunkey	*	YOSHITAKA	*
 203			Japan	22	50	WalkingJunkey	*	YOSHITAKA	*
 204			Japan	22	55	WalkingJunkey	*	YOSHITAKA	*
-205			Japan	23	0	WalkingJunkey	*	YOSHITAKA	*
+205	j3-cCkUGO1M	China-town,Kanagawa	Japan	23	0	WalkingJunkey	*	TSUCHIYA	*
 206			Japan	23	5	WalkingJunkey	*	YOSHITAKA	*
 207			Japan	23	10	WalkingJunkey	*	YOSHITAKA	*
 208			Japan	23	15	WalkingJunkey	*	YOSHITAKA	*
@@ -215,7 +215,7 @@ id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
 214			Japan	23	45	WalkingJunkey	*	YOSHITAKA	*
 215			Japan	23	50	WalkingJunkey	*	YOSHITAKA	*
 216			Japan	23	55	WalkingJunkey	*	YOSHITAKA	*
-217			Japan	0	0	WalkingJunkey	*	YOSHITAKA	*
+217	7cqlfQLWHnM	Yokohama,Kanagawa	Japan	0	0	WalkingJunkey	*	TSUCHIYA	*
 218			Japan	0	5	WalkingJunkey	*	YOSHITAKA	*
 219			Japan	0	10	WalkingJunkey	*	YOSHITAKA	*
 220			Japan	0	15	WalkingJunkey	*	YOSHITAKA	*
@@ -227,7 +227,7 @@ id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
 226			Japan	0	45	WalkingJunkey	*	YOSHITAKA	*
 227			Japan	0	50	WalkingJunkey	*	YOSHITAKA	*
 228			Japan	0	55	WalkingJunkey	*	YOSHITAKA	*
-229			Japan	1	0	WalkingJunkey	*	YOSHITAKA	*
+229	A_9cInzLNuI	Akabane,Kanagawa	Japan	1	0	WalkingJunkey	*	TOSHITAKA	*
 230			Japan	1	5	WalkingJunkey	*	YOSHITAKA	*
 231			Japan	1	10	WalkingJunkey	*	YOSHITAKA	*
 232			Japan	1	15	WalkingJunkey	*	YOSHITAKA	*
@@ -239,7 +239,7 @@ id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
 238			Japan	1	45	WalkingJunkey	*	YOSHITAKA	*
 239			Japan	1	50	WalkingJunkey	*	YOSHITAKA	*
 240			Japan	1	55	WalkingJunkey	*	YOSHITAKA	*
-241			Japan	2	0	WalkingJunkey	*	YOSHITAKA	*
+241	V0U_6Wc0hPs	Daikokuhuto,Kanagawa	Japan	2	0	WalkingJunkey	*	MASAKI	*
 242			Japan	2	5	WalkingJunkey	*	YOSHITAKA	*
 243			Japan	2	10	WalkingJunkey	*	YOSHITAKA	*
 244			Japan	2	15	WalkingJunkey	*	YOSHITAKA	*
@@ -251,7 +251,7 @@ id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
 250			Japan	2	45	WalkingJunkey	*	YOSHITAKA	*
 251			Japan	2	50	WalkingJunkey	*	YOSHITAKA	*
 252			Japan	2	55	WalkingJunkey	*	YOSHITAKA	*
-253	V0U_6Wc0hPs	Daikokuhuto,Kanagawa	Japan	3	0	WalkingJunkey	*	MASAKI	*
+253	5uHuXvavZZ4	Miura-Hantou,Kanagawa	Japan	3	0	WalkingJunkey	*	YOSHITAKA	*
 254			Japan	3	5	WalkingJunkey	*	YOSHITAKA	*
 255			Japan	3	10	WalkingJunkey	*	YOSHITAKA	*
 256			Japan	3	15	WalkingJunkey	*	YOSHITAKA	*
@@ -263,7 +263,7 @@ id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
 262			Japan	3	45	WalkingJunkey	*	YOSHITAKA	*
 263			Japan	3	50	WalkingJunkey	*	YOSHITAKA	*
 264			Japan	3	55	WalkingJunkey	*	YOSHITAKA	*
-265			Japan	4	0	WalkingJunkey	*	YOSHITAKA	*
+265	voZly2q0x6o	Azabu-dai,Tokyo	Japan	4	0	WalkingJunkey	*	YOSHITAKA	*
 266			Japan	4	5	WalkingJunkey	*	YOSHITAKA	*
 267			Japan	4	10	WalkingJunkey	*	YOSHITAKA	*
 268			Japan	4	15	WalkingJunkey	*	YOSHITAKA	*
@@ -275,7 +275,7 @@ id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
 274			Japan	4	45	WalkingJunkey	*	YOSHITAKA	*
 275			Japan	4	50	WalkingJunkey	*	YOSHITAKA	*
 276			Japan	4	55	WalkingJunkey	*	YOSHITAKA	*
-277			Japan	5	0	WalkingJunkey	*	YOSHITAKA	*
+277	ukkXemgvCNA	Jogashima,Kanagawa	Japan	5	0	WalkingJunkey	*	YOSHITAKA	*
 278			Japan	5	5	WalkingJunkey	*	YOSHITAKA	*
 279			Japan	5	10	WalkingJunkey	*	YOSHITAKA	*
 280			Japan	5	15	WalkingJunkey	*	YOSHITAKA	*
