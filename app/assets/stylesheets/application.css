@@ -45,21 +45,20 @@ header
   padding-top:50px;
 }
 
-#signup .actions{
-  width:125px;
-  margin:10px auto;
-}
-
-
 
 #signup-logo {
   width:400px;
   margin: 0 auto;  
-
 }
+
 
 #signup-logo img{
     width:400px;
+}
+
+#signup .actions{
+  width:125px;
+  margin:10px auto;
 }
 
 #signup .field {
@@ -76,11 +75,41 @@ header
   background-color: white;
 }
 
-
-
-#facebook-logo img{
-  width:155px;
+ /****************************
+サインイン画面の設定
+****************************/
+#signin {
+  height:100%;
+  background-image: url('/images/bg/sign_in_bg.png');
+  background-size: cover;
 }
+
+#signin h2{
+  margin-top :0px;
+  padding-top:50px;
+}
+
+
+#signin .actions{
+  width:100px;
+  margin:20px auto;
+}
+
+#signin .field {
+  width:250px;
+    margin: 7px auto;
+}
+
+#facebook-logo-signin{
+  width:140px;
+  margin:30px auto 20px auto;
+}
+
+#facebook-logo-signin a:hover{
+  background-color: white;
+}
+
+
 
  /****************************
 エラーポップアップ
