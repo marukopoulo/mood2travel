@@ -42,6 +42,8 @@ header
 }
 #signup h2{
   color:pink;
+  margin-top :0px;
+  padding-top:50px;
 
 }
 #signup-logo {
