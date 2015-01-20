@@ -2,34 +2,36 @@
   <div id ="signup-logo">
     <h2><img src="/images/icons/logo2.png" alt="Sign up"></h2>
   </div>
+　　
+  <div id = "facebook-logo">
+    <a href = "/users/auth/facebook"><img src = "/images/buttons/facebook.png" alt = "facebookでログイン"></a>
+  </div>
 
     <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
     <%= devise_error_messages! %>
 
         <div class="field">
-          <%= f.label :email %><br />
-          <%= f.email_field :email, autofocus: true,:size=>"34" %>
+          <%= f.label :email　, "メールアドレス" %><br />
+          <%= f.email_field :email, autofocus: true,:size=>"32" %>
         </div>
 
 
         <div class="field">
-          <%= f.label :password %>
-          <% if @validatable %>
-          <em>(<%= @minimum_password_length %> characters minimum)</em>
-          <% end %><br />
-          <%= f.password_field :password, autocomplete: "off",:size=>"34" %>
+          <%= f.label :password　, "パスワード" %>
+
+          <%= f.password_field :password, autocomplete: "off",:size=>"32" %>
         </div>
 
         <div class="field">
-          <%= f.label :password_confirmation %><br />
-          <%= f.password_field :password_confirmation, autocomplete: "off" ,:size=>"34"%>
+          <%= f.label :password_confirmation  , "パスワードの再確認"%><br />
+          <%= f.password_field :password_confirmation, autocomplete: "off" ,:size=>"32"%>
         </div>
 
         <div class="actions">
-          <%= f.submit "Sign up" %>
+          <%= image_submit_tag("/images/buttons/sign-up.png", :class => "btn") %>
+          <a href  = "/users/sign_in"><p style ="margin-top:5px ,margin-left:30px">すでに登録済みの方</p></a>
+           
         </div>
     <% end %>
-
-    <%= render "devise/shared/links" %>
 
 </div>

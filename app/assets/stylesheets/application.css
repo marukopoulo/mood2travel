@@ -41,24 +41,61 @@ header
   background-size: cover;
 }
 #signup h2{
-  color:pink;
   margin-top :0px;
   padding-top:50px;
-
 }
+
+#signup .actions{
+  width:125px;
+  margin:10px auto;
+}
+
+
+
 #signup-logo {
-  width:500px;
+  width:400px;
   margin: 0 auto;  
 
 }
 
 #signup-logo img{
-    width:500px;
+    width:400px;
 }
 
 #signup .field {
-  width:200px;
-  color:pink;
+  width:250px;
     margin: 0 auto;
 }
+
+#facebook-logo{
+  width:155px;
+  margin:10px auto 20px auto;
+}
+
+#facebook-logo a:hover{
+  background-color: white;
+}
+
+
+
+#facebook-logo img{
+  width:155px;
+}
+
+ /****************************
+エラーポップアップ
+****************************/
+
+
+#error_explanation {
+  margin: 30px auto;
+}
+
+#error_explanation h2{
+  padding-top: 0px;
+  margin-top:0;
+
+}
+
+
 

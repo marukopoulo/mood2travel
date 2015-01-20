@@ -22,6 +22,7 @@ gem 'cancancan', '~> 1.9'
 gem 'enum_help'
 gem 'less-rails' # Railsでlessを使えるようにする。Bootstrapがlessで書かれているため
 gem 'twitter-bootstrap-rails' # Bootstrapの本体
+gem 'i18n'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
