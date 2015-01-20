@@ -5,14 +5,16 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <link rel="shortcut icon" href="images/icons/favicon.ico" >
+  <link rel="shortcut icon" href="/images/icons/favicon.ico" >
   <%= csrf_meta_tags %>
 </head>
 
 
 
 <body>
-<% if user_signed_in? %>
+        <div id = "header">
+       <a href = "/" alt = "mood2travel"><img src= "/images/icons/logo.png"  alt = "mood2travel"></h1></a>
+      <% if user_signed_in? %>
     <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
 <% else %>
     <%= link_to "Sign in", new_user_session_path %>
@@ -20,10 +22,11 @@
     <%= link_to "Sign in with Twitter", user_omniauth_authorize_path(:twitter) %>
 
 <% end %>
-
+      </div>
+<!--
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
-
+-->
 <%= yield %>
 
 </body>

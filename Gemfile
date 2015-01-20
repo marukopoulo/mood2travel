@@ -20,6 +20,8 @@ gem 'nokogiri','1.5.0'
 gem 'rails_admin','0.6.2'
 gem 'cancancan', '~> 1.9'
 gem 'enum_help'
+gem 'less-rails' # Railsでlessを使えるようにする。Bootstrapがlessで書かれているため
+gem 'twitter-bootstrap-rails' # Bootstrapの本体
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'

@@ -1,0 +1,35 @@
+<div id = "signup">
+  <div id ="signup-logo">
+    <h2><img src="/images/icons/logo2.png" alt="Sign up"></h2>
+  </div>
+
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    <%= devise_error_messages! %>
+
+        <div class="field">
+          <%= f.label :email %><br />
+          <%= f.email_field :email, autofocus: true,:size=>"34" %>
+        </div>
+
+
+        <div class="field">
+          <%= f.label :password %>
+          <% if @validatable %>
+          <em>(<%= @minimum_password_length %> characters minimum)</em>
+          <% end %><br />
+          <%= f.password_field :password, autocomplete: "off",:size=>"34" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :password_confirmation %><br />
+          <%= f.password_field :password_confirmation, autocomplete: "off" ,:size=>"34"%>
+        </div>
+
+        <div class="actions">
+          <%= f.submit "Sign up" %>
+        </div>
+    <% end %>
+
+    <%= render "devise/shared/links" %>
+
+</div>
