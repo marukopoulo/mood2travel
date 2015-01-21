@@ -8,5 +8,6 @@ class StaticPagesController < ApplicationController
   end
 
   def upload
+    @requestId = params[:requestId]
   end
 end

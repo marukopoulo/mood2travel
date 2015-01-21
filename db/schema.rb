@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150116081053) do
+ActiveRecord::Schema.define(version: 20150120230110) do
 
   create_table "admin_users", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -37,6 +37,21 @@ ActiveRecord::Schema.define(version: 20150116081053) do
     t.string   "walker"
     t.string   "director"
     t.string   "video"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "movies", force: true do |t|
+    t.integer  "videoId"
+    t.string   "youtubeID"
+    t.string   "city"
+    t.string   "country"
+    t.integer  "hour"
+    t.integer  "minute"
+    t.string   "director"
+    t.string   "directorUrl"
+    t.string   "walker"
+    t.string   "walkerUrl"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

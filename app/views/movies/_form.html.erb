@@ -1,0 +1,57 @@
+<%= form_for(@movie) do |f| %>
+  <% if @movie.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@movie.errors.count, "error") %> prohibited this movie from being saved:</h2>
+
+      <ul>
+      <% @movie.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :videoId %><br>
+    <%= f.text_field :videoId %>
+  </div>
+  <div class="field">
+    <%= f.label :youtubeID %><br>
+    <%= f.text_field :youtubeID %>
+  </div>
+  <div class="field">
+    <%= f.label :city %><br>
+    <%= f.text_field :city %>
+  </div>
+  <div class="field">
+    <%= f.label :country %><br>
+    <%= f.text_field :country %>
+  </div>
+  <div class="field">
+    <%= f.label :hour %><br>
+    <%= f.text_field :hour %>
+  </div>
+  <div class="field">
+    <%= f.label :minute %><br>
+    <%= f.text_field :minute %>
+  </div>
+  <div class="field">
+    <%= f.label :director %><br>
+    <%= f.text_field :director %>
+  </div>
+  <div class="field">
+    <%= f.label :directorUrl %><br>
+    <%= f.text_field :directorUrl %>
+  </div>
+  <div class="field">
+    <%= f.label :walker %><br>
+    <%= f.text_field :walker %>
+  </div>
+  <div class="field">
+    <%= f.label :walkerUrl %><br>
+    <%= f.text_field :walkerUrl %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

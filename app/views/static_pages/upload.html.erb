@@ -1,5 +1,4 @@
-
-    <div id="flashContent">
+<div id="flashContent">
       <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%%" height="100%%" id="cruisingPrototype009" align="top">
         <param name="movie" value="<%= asset_path("cruisingPrototype009.swf") %>" />
         <param name="quality" value="high" />
@@ -12,6 +11,8 @@
         <param name="devicefont" value="false" />
         <param name="salign" value="" />
         <param name="allowScriptAccess" value="sameDomain" />
+        <param name="bgColor" value="sameDomain" />
+        <param name="flashvars" value="requestId=<%= @requestId %>" />
         <!--[if !IE]>-->
         <object type="application/x-shockwave-flash" data="<%= asset_path("cruisingPrototype009.swf") %>" width="100%%" height="100%%">
           <param name="movie" value="<%= asset_path("cruisingPrototype009.swf") %>" />
@@ -24,7 +25,7 @@
           <param name="menu" value="false" />
           <param name="devicefont" value="false" />
           <param name="salign" value="" />
-          <param name="allowScriptAccess" value="sameDomain" />
+          <param name="flashvars" value="requestId=<%= @requestId %>" />
         <!--<![endif]-->
           <a href="https://www.adobe.com/go/getflash">
             <img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Adobe Flash Player を取得" />

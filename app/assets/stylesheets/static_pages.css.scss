@@ -6,17 +6,18 @@
 flash基本設定
 ****************************/
 html, body {
- height:100%; 
- background-color: black;
+ background-color: white;
+ height:100%;
 margin: 0px ; 
 padding:0px; 
 }
 
 body { 
-  overflow:hidden; 
+  
 }
 
 #flashContent { 
+overflow:hidden; 
   margin:0;
   width:100%; 
   height:100%; 

@@ -1,12 +1,14 @@
 Rails.application.routes.draw do
 
 
+  resources :movies
+
   resources :items
 
   root :to => 'static_pages#upload'
   get 'static_pages/home'
   get 'static_pages/about'
-  get 'static_pages/upload' 
+  get '/:requestId' => "static_pages#upload" #rootpathにクエリを渡したら、動画の再生するよ。
 
   
   devise_for :admin_users

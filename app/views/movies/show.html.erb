@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Videoid:</strong>
+  <%= @movie.videoId %>
+</p>
+
+<p>
+  <strong>Youtubeid:</strong>
+  <%= @movie.youtubeID %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @movie.city %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @movie.country %>
+</p>
+
+<p>
+  <strong>Hour:</strong>
+  <%= @movie.hour %>
+</p>
+
+<p>
+  <strong>Minute:</strong>
+  <%= @movie.minute %>
+</p>
+
+<p>
+  <strong>Director:</strong>
+  <%= @movie.director %>
+</p>
+
+<p>
+  <strong>Directorurl:</strong>
+  <%= @movie.directorUrl %>
+</p>
+
+<p>
+  <strong>Walker:</strong>
+  <%= @movie.walker %>
+</p>
+
+<p>
+  <strong>Walkerurl:</strong>
+  <%= @movie.walkerUrl %>
+</p>
+
+<%= link_to 'Edit', edit_movie_path(@movie) %> |
+<%= link_to 'Back', movies_path %>

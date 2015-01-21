@@ -17,6 +17,9 @@
  /****************************
 header
 ****************************/
+#header{
+  background-color: black;
+}
 
 #header h1{
 
@@ -27,7 +30,7 @@ header
 }
 
 #header img{
-  margin:12px 0 0 40px ;
+  margin:12px 0  10px 40px ;
   height:40px;
 }
 
@@ -36,6 +39,7 @@ header
 サインアップ画面の設定
 ****************************/
 #signup {
+  overflow:hidden; 
   height:100%;
   background-image: url('/images/bg/sign_up_bg.png');
   background-size: cover;
@@ -79,6 +83,7 @@ header
 サインイン画面の設定
 ****************************/
 #signin {
+  overflow:hidden; 
   height:100%;
   background-image: url('/images/bg/sign_in_bg.png');
   background-size: cover;

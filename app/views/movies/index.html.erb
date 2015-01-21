@@ -1,0 +1,43 @@
+<h1>Listing movies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Videoid</th>
+      <th>Youtubeid</th>
+      <th>City</th>
+      <th>Country</th>
+      <th>Hour</th>
+      <th>Minute</th>
+      <th>Director</th>
+      <th>Directorurl</th>
+      <th>Walker</th>
+      <th>Walkerurl</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @movies.each do |movie| %>
+      <tr>
+        <td><%= movie.videoId %></td>
+        <td><%= movie.youtubeID %></td>
+        <td><%= movie.city %></td>
+        <td><%= movie.country %></td>
+        <td><%= movie.hour %></td>
+        <td><%= movie.minute %></td>
+        <td><%= movie.director %></td>
+        <td><%= movie.directorUrl %></td>
+        <td><%= movie.walker %></td>
+        <td><%= movie.walkerUrl %></td>
+        <td><%= link_to 'Show', movie %></td>
+        <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
+        <td><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Movie', new_movie_path %>

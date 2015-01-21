@@ -1,0 +1,289 @@
+id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
+1	QJPYLAwX1AA	Haneda,Kanagawa	Japan	6	0	WalkingJunkey	http://www.kafun.jp	Masaki	http://www.iino.jp
+2	TYTR2XPZ7P4	Marunouchi,Tokyo	Japan	6	5	WalkingJunkey	http://www.google.com	YOSHITAKA	http://www.google.com
+3	FDjs7ITGlkE	Shimokitazawa,Tokyo	Japan	6	10	WalkingJunkey	*	YOSHITAKA	*
+4			Japan	6	15	WalkingJunkey	*	YOSHITAKA	*
+5	PUCrLofyHnk	Marunouchi,Tokyo	Japan	6	20	WalkingJunkey	*	YOSHITAKA	*
+6	azVHlKokIcA	Tsukiji-shijo	Japan	6	25	WalkingJunkey	*	YOSHITAKA	*
+7	NiUn5IYI8cA	Shimokitazawa	Japan	6	30	WalkingJunkey	*	YOSHITAKA	*
+8			Japan	6	35	WalkingJunkey	*	YOSHITAKA	*
+9	G1xs4uRtLkY	Hibiya,Tokyo	Japan	6	40	WalkingJunkey	*	YOSHITAKA	*
+10	QxhWnGXvh7g	Tsukiji-shijo,Tokyo	Japan	6	45	WalkingJunkey	*	YOSHITAKA	*
+11			Japan	6	50	WalkingJunkey	*	YOSHITAKA	*
+12	c2ilyf-DKT4	Haneda	Japan	6	55	WalkingJunkey	*	MASAKI	*
+13			Japan	7	0	WalkingJunkey	*	YOSHITAKA	*
+14			Japan	7	5	WalkingJunkey	*	YOSHITAKA	*
+15			Japan	7	10	WalkingJunkey	*	YOSHITAKA	*
+16	GzalaF9U1l4	Tsukiji-shijo	Japan	7	15	WalkingJunkey	*	YOSHITAKA	*
+17	Qvc54OE0lPs	Shimokitazawa	Japan	7	20	WalkingJunkey	*	YOSHITAKA	*
+18	1BfeS3pqrZU	Haneda	Japan	7	25	WalkingJunkey	*	YOSHITAKA	*
+19	D4O8fzTnUNU	Shibuya,Tokyo	Japan	7	30	WalkingJunkey	*	YOSHITAKA	*
+20	Tpei1aYvnWM	Shimokitazawa,Tokyo	Japan	7	35	WalkingJunkey	*	YOSHITAKA	*
+21			Japan	7	40	WalkingJunkey	*	YOSHITAKA	*
+22	ccbxUYODerA	Yoyogi-koen,Tokyo	Japan	7	45	WalkingJunkey	*	YOSHITAKA	*
+23			Japan	7	50	WalkingJunkey	*	YOSHITAKA	*
+24			Japan	7	55	WalkingJunkey	*	YOSHITAKA	*
+25	Z1uOXDrUtAE	Yoyogi-koen,Tokyo	Japan	8	0	WalkingJunkey	*	YOSHITAKA	*
+26			Japan	8	5	WalkingJunkey	*	YOSHITAKA	*
+27			Japan	8	10	WalkingJunkey	*	YOSHITAKA	*
+28	_DKJB-P2OSc	Shiodome,Tokyo	Japan	8	15	WalkingJunkey	*	YOSHITAKA	*
+29	9fcH48Ltgzg	Sichirigahama,Kanagawa	Japan	8	20	WalkingJunkey	*	KOTA	*
+30	aPWKClYVRxw	Sichirigahama,Kanagawa	Japan	8	25	WalkingJunkey	*	TSUCHIYA	*
+31	SE86fXgX3n0	Meiji-jingu,Tokyo	Japan	8	30	WalkingJunkey	*	YOSHITAKA	*
+32	upCwYkxwNLs	Higashi-ginza,Tokyo	Japan	8	35	WalkingJunkey	*	YOSHITAKA	*
+33	TsZG5YU-EHg	Hodogaya,Kanagawa	Japan	8	40	WalkingJunkey	*	MASAKI	*
+34	hvDyo7pf4Dk	Sichirigahama,Kanagawa	Japan	8	45	WalkingJunkey	*	TSUCHIYA	*
+35	6eibMEUOMSA	Harajuku,Tokyo	Japan	8	50	WalkingJunkey	*	YOSHITAKA	*
+36	9c2w7YQPBI0	Sichirigahama,Kanagawa	Japan	8	55	WalkingJunkey	*	YOSHITAKA	*
+37	WJrNGogv10I	Tsukiji-sijo,Tokyo	Japan	9	0	WalkingJunkey	*	YOSHITAKA	*
+38	91M2VW-DiAA	Yanaka,Tokyo	Japan	9	5	WalkingJunkey	*	YOSHITAKA	*
+39	2405f3DCcdI	Tsukiji-sijo,Tokyo	Japan	9	10	WalkingJunkey	*	YOSHITAKA	*
+40	mIMxhwghpc4	Yanaka,Tokyo	Japan	9	15	WalkingJunkey	*	YOSHITAKA	*
+41			Japan	9	20	WalkingJunkey	*	YOSHITAKA	*
+42	gPMuMNeRwzI	Yanaka,Tokyo	Japan	9	25	WalkingJunkey	*	YOSHITAKA	*
+43	NzAXi3a6miI	Tsukiji-shijo,Tokyo	Japan	9	30	WalkingJunkey	*	YOSHITAKA	*
+44	c8CUjOv778A	Yanaka,Tokyo	Japan	9	35	WalkingJunkey	*	YOSHITAKA	*
+45	UCCj808WFB4	Tsukiji-shijo,Tokyo	Japan	9	40	WalkingJunkey	*	YOSHITAKA	*
+46	u-5Tlbzc9n8	Hiroo,Tokyo	Japan	9	45	WalkingJunkey	*	YUKAKO	*
+47			Japan	9	50	WalkingJunkey	*	YOSHITAKA	*
+48	2xIzOVNn5uU	Tsukiji-shijo,Tokyo	Japan	9	55	WalkingJunkey	*	YOSHITAKA	*
+49	R4w21JpbLAI	Hiroo,Tokyo	Japan	10	0	WalkingJunkey	*	YUKAKO	*
+50			Japan	10	5	WalkingJunkey	*	YOSHITAKA	*
+51	CppkYvP4EqI	Yanaka,Tokyo	Japan	10	10	WalkingJunkey	*	YOSHITAKA	*
+52			Japan	10	15	WalkingJunkey	*	YOSHITAKA	*
+53	WjDQ6-tMXWc	Yanaka,Tokyo	Japan	10	20	WalkingJunkey	*	YOSHITAKA	*
+54	bSiPMP86g9U	Hiroo,Tokyo	Japan	10	25	WalkingJunkey	*	YUKAKO	*
+55			Japan	10	30	WalkingJunkey	*	YOSHITAKA	*
+56	zlBptrpFN3E	Hiroo,Tokyo	Japan	10	35	WalkingJunkey	*	YUKAKO	*
+57	afAwh7-kcNY	Yanaka,Tokyo	Japan	10	40	WalkingJunkey	*	YOSHITAKA	*
+58			Japan	10	45	WalkingJunkey	*	YOSHITAKA	*
+59			Japan	10	50	WalkingJunkey	*	YOSHITAKA	*
+60			Japan	10	55	WalkingJunkey	*	YOSHITAKA	*
+61	lubg1aqOPaY	Yanaka,Tokyo	Japan	11	0	WalkingJunkey	*	YOSHITAKA	*
+62	hZ9-NzD1wiQ	Hiroo,Tokyo	Japan	11	5	WalkingJunkey	*	YUKAKO	*
+63			Japan	11	10	WalkingJunkey	*	YOSHITAKA	*
+64	zCp5EbXFuIY	Hiroo,Yukako	Japan	11	15	WalkingJunkey	*	YUKAKO	*
+65			Japan	11	20	WalkingJunkey	*	YOSHITAKA	*
+66			Japan	11	25	WalkingJunkey	*	YOSHITAKA	*
+67			Japan	11	30	WalkingJunkey	*	YOSHITAKA	*
+68			Japan	11	35	WalkingJunkey	*	YOSHITAKA	*
+69	-ruY0PaJ5iw	Akiahabara,Tokyo	Japan	11	40	WalkingJunkey	*	YOSHITAKA	*
+70			Japan	11	45	WalkingJunkey	*	YOSHITAKA	*
+71	WT9J0xPjoB4	Akihabara,Tokyo	Japan	11	50	WalkingJunkey	*	SHOTA	*
+72			Japan	11	55	WalkingJunkey	*	YOSHITAKA	*
+73	VsNbDHRzszg	Irabu,Okinawa	Japan	12	0	WalkingJunkey	*	CHIAKI	*
+74			Japan	12	5	WalkingJunkey	*	YOSHITAKA	*
+75	mqCAy0UFiXA	Takadanobaba,Tokyo	Japan	12	10	WalkingJunkey	*	YUKAKO	*
+76	Fst4qrjODYs	Irabu,Okinawa	Japan	12	15	WalkingJunkey	*	CHIAKI	*
+77	iWNwtToVQMU	Akihabara,Tokyo	Japan	12	20	WalkingJunkey	*	YOSHITAKA	*
+78			Japan	12	25	WalkingJunkey	*	YOSHITAKA	*
+79			Japan	12	30	WalkingJunkey	*	YOSHITAKA	*
+80			Japan	12	35	WalkingJunkey	*	YOSHITAKA	*
+81	xdIY7OWYxeo	Akihabara,Tokyo	Japan	12	40	WalkingJunkey	*	SHOTA	*
+82			Japan	12	45	WalkingJunkey	*	YOSHITAKA	*
+83	17OTgYHdW4w	Akihabara,Tokyo	Japan	12	50	WalkingJunkey	*	YOSHITAKA	*
+84	bCTtQE3mLFw	Hodogaya,Kanagawa	Japan	12	55	WalkingJunkey	*	MASAKI	*
+85			Japan	13	0	WalkingJunkey	*	SHOTA	*
+86	QcPn_tRbROM	Akihabara,Tokyo	Japan	13	5	WalkingJunkey	*	YOSHITAKA	*
+87			Japan	13	10	WalkingJunkey	*	YOSHITAKA	*
+88			Japan	13	15	WalkingJunkey	*	YOSHITAKA	*
+89			Japan	13	20	WalkingJunkey	*	YOSHITAKA	*
+90	P35Ce8H1Tn8	Marunouchi,Tokyo	Japan	13	25	WalkingJunkey	*	YOSHITAKA	*
+91	t6ErnqQh-h0	Kamakura,Kanagawa	Japan	13	30	WalkingJunkey	*	TSUCHIYA	*
+92			Japan	13	35	WalkingJunkey	*	YOSHITAKA	*
+93	KRCvf0oeHzo	Kamakura,Kanagawa	Japan	13	40	WalkingJunkey	*	TSUCHIYA	*
+94			Japan	13	45	WalkingJunkey	*	YOSHITAKA	*
+95			Japan	13	50	WalkingJunkey	*	YOSHITAKA	*
+96			Japan	13	55	WalkingJunkey	*	YOSHITAKA	*
+97	scH56TSzd1c	Kamakura,Kanagawa	Japan	14	0	WalkingJunkey	*	TSUCHIYA	*
+98			Japan	14	5	WalkingJunkey	*	YOSHITAKA	*
+99			Japan	14	10	WalkingJunkey	*	YOSHITAKA	*
+100			Japan	14	15	WalkingJunkey	*	YOSHITAKA	*
+101	vuvh5zbbkM4	Kamakura,Kanagawa	Japan	14	20	WalkingJunkey	*	YOSHITAKA	*
+102			Japan	14	25	WalkingJunkey	*	YOSHITAKA	*
+103			Japan	14	30	WalkingJunkey	*	YOSHITAKA	*
+104			Japan	14	35	WalkingJunkey	*	YOSHITAKA	*
+105	ETEH9IQ4w78	Monzen-nakacho,Tokyo	Japan	14	40	WalkingJunkey	*	YUKINO	*
+106			Japan	14	45	WalkingJunkey	*	YOSHITAKA	*
+107	-6FDUu8CN_c	Monzen-nakacho	Japan	14	50	WalkingJunkey	*	YUKINO	*
+108			Japan	14	55	WalkingJunkey	*	YOSHITAKA	*
+109			Japan	15	0	WalkingJunkey	*	YOSHITAKA	*
+110			Japan	15	5	WalkingJunkey	*	YOSHITAKA	*
+111	1Ejwi6cikZQ	Shonandai,Kanagawa	Japan	15	10	WalkingJunkey	*	SHOTA	*
+112			Japan	15	15	WalkingJunkey	*	YOSHITAKA	*
+113			Japan	15	20	WalkingJunkey	*	YOSHITAKA	*
+114			Japan	15	25	WalkingJunkey	*	YOSHITAKA	*
+115	iB5NCbTw8aE	Kamakura,Kanagawa	Japan	15	30	WalkingJunkey	*	YOSHITAKA	*
+116			Japan	15	35	WalkingJunkey	*	YOSHITAKA	*
+117	YSBBytfxphY	Kamui-misaki,Hokkaido	Japan	15	40	WalkingJunkey	*	YOSHITAKA	*
+118	r2x4-VSCIp4	Shonandai,Kanagawa	Japan	15	45	WalkingJunkey	*	YOSHITAKA	*
+119	HY8fAvlveDA	Mita,Tokyo	Japan	15	50	WalkingJunkey	*	YOSHITAKA	*
+120	A7wiuW7ow1s	Kamakura,Kanagawa	Japan	15	55	WalkingJunkey	*	YOSHITAKA	*
+121	IU32d1odWZg	Shitiriga-hama,Kanagawa	Japan	16	0	WalkingJunkey	*	TSUCHIYA	*
+122	H2RxcYYVCrc	Akihabara,Kanagawa	Japan	16	5	WalkingJunkey	*	YOSHITAKA	*
+123	TsoUK_HSxb4	Kanda,Tokyo	Japan	16	10	WalkingJunkey	*	YOSHITAKA	*
+124			Japan	16	15	WalkingJunkey	*	YOSHITAKA	*
+125	rF1-jGhqrwc	Kanda,Tokyo	Japan	16	20	WalkingJunkey	*	YOSHITAKA	*
+126	4GGP2-uAzjY	Tokyo-tower,Tokyo	Japan	16	25	WalkingJunkey	*	YOSHITAKA	*
+127	PYgNXK8EX-w	Kamakura,Yoshitaka	Japan	16	30	WalkingJunkey	*	YOSHITAKA	*
+128	IXhx2ROwSE8	Kanda,Tokyo	Japan	16	35	WalkingJunkey	*	SHOTA	*
+129			Japan	16	40	WalkingJunkey	*	YOSHITAKA	*
+130	iDTrrjqJnjw	Ginza,Tokyo	Japan	16	45	WalkingJunkey	*	YUKINO	*
+131	gVWdHzGFOhI	Kamakura,Kanagawa	Japan	16	50	WalkingJunkey	*	SHOTA	*
+132			Japan	16	55	WalkingJunkey	*	YOSHITAKA	*
+133	Ln9yk5ywN8I	Shonandai,Kanagawa	Japan	17	0	WalkingJunkey	*	YOSHITAKA	*
+134	dqVNH4HmBQU	Kanda,Tokyo	Japan	17	5	WalkingJunkey	*	YOSHITAKA	*
+135	dADwTXhZfJM	Kokyo-mae,Tokyo	Japan	17	10	WalkingJunkey	*	YUKINO	*
+136	cG24KUEz484	America-yokocho,Tokyo	Japan	17	15	WalkingJunkey	*	AKANE	*
+137	Alc5bzQR9nY	Shonandai,Kanagawa	Japan	17	20	WalkingJunkey	*	SHOTA	*
+138	NXIkK53To7A	Kanda,Tokyo	Japan	17	25	WalkingJunkey	*	YOSHITAKA	*
+139			Japan	17	30	WalkingJunkey	*	YOSHITAKA	*
+140	y6ZS2rGZvuo	Shibashi,Tokyo	Japan	17	35	WalkingJunkey	*	YOSHITAKA	*
+141	XzCinMbyArY	Kamakura,Kanagawa	Japan	17	40	WalkingJunkey	*	SHOTA	*
+142	WyhG-Zqn20o	Kanda,Tokyo	Japan	17	45	WalkingJunkey	*	YOSHITAKA	*
+143			Japan	17	50	WalkingJunkey	*	YOSHITAKA	*
+144	UGKYkmubV1I	Shinbashi,Tokyo	Japan	17	55	WalkingJunkey	*	YOSHITAKA	*
+145	-EQso4bmZ0Y	Ueno-koen,Tokyo	Japan	18	0	WalkingJunkey	*	KURUMI	*
+146	T4qM7YqogHM	Shinbashi,Tokyo	Japan	18	5	WalkingJunkey	*	YOSHITAKA	*
+147	Q9i3DcFqlDc	Kamakura,Kanagawa	Japan	18	10	WalkingJunkey	*	YOSHITAKA	*
+148	mlEyizPvwoA	Ueno-koen,Tokyo	Japan	18	15	WalkingJunkey	*	AKANE	*
+149	R4nlQ2tpj8k	Shinbashi,Tokyo	Japan	18	20	WalkingJunkey	*	YOSHITAKA	*
+150	M60aU9ahnL8	Ueno-koen,Tokyo	Japan	18	25	WalkingJunkey	*	NATSUKI	*
+151	b7dQeKWkIxM	Kamakura,Kanagawa	Japan	18	30	WalkingJunkey	*	YOSHITAKA	*
+152	OZ3U-sDiH9s	Shonandai,Kanagawa	Japan	18	35	WalkingJunkey	*	YOSHITAKA	*
+153	t3QA7ojfu5A	Kanda,Tokyo	Japan	18	40	WalkingJunkey	*	YOSHITAKA	*
+154	M7ga9LAu_QM	America-yokocho,Tokyo	Japan	18	45	WalkingJunkey	*	NATSUKI	*
+155	-Rgde8Wl7D8	Yayoi-dai,Tokyo	Japan	18	50	WalkingJunkey	*	YOSHITAKA	*
+156	HA9W4nO9IhY	Ochanomizu,Tokyo	Japan	18	55	WalkingJunkey	*	YOSHITAKA	*
+157	GbFyeox0arw	America-yokocho,Tokyo	Japan	19	0	WalkingJunkey	*	AKANE	*
+158	QW-LgZJ4BDo	Harajuku,Tokyo	Japan	19	5	WalkingJunkey	*	YOSHITAKA	*
+159	qDoR1zZy-iE	Shitirigahama,Kanagawa	Japan	19	10	WalkingJunkey	*	YOSHITAKA	*
+160	dWNUFyZkUIs	America-yokocho,Tokyo	Japan	19	15	WalkingJunkey	*	AKANE	*
+161	_mRRnjyoQds	Akabane,Tokyo	Japan	19	20	WalkingJunkey	*	YOSHITAKA	*
+162	FYWxcgpcFsg	Shimoiida,Kanagawa	Japan	19	25	WalkingJunkey	*	YOSHITAKA	*
+163	Pm2pM2kMTQc	Yayoidai,Kanagawa	Japan	19	30	WalkingJunkey	*	YOSHITAKA	*
+164	OZ3U-sDiH9s	Shonandai,Kanagawa	Japan	19	35	WalkingJunkey	*	YOSHITAKA	*
+165	t3QA7ojfu5A	Kanda,Tokyo	Japan	19	40	WalkingJunkey	*	YOSHITAKA	*
+166	TFpEzXonM-s	Akabane,Tokyo	Japan	19	45	WalkingJunkey	*	YOSHITAKA	*
+167			Japan	19	50	WalkingJunkey	*	YOSHITAKA	*
+168	Sg2zgQNuOxg	Kannai,Kanagawa	Japan	19	55	WalkingJunkey	*	TSUCHIYA	*
+169	8lJB4DStNB0	Shibuya,Tokyo	Japan	20	0	WalkingJunkey	*	YOSHITAKA	*
+170	u5GquJSVBJs	Akabane,Tokyo	Japan	20	5	WalkingJunkey	*	YOSHITAKA	*
+171	yWbFtk5wsJo	Kannai,Kanagawa	Japan	20	10	WalkingJunkey	*	TSUCHIYA	*
+172	s3lQvhzaG_U	Akihabara,Tokyo	Japan	20	15	WalkingJunkey	*	YOSHITAKA	*
+173	U3OvU1PIK2g	Shimoiida,Kanagawa	Japan	20	20	WalkingJunkey	*	YOSHITAKA	*
+174	045S07u6aW0	Minatomirai,Kanagawa	Japan	20	25	WalkingJunkey	*	TSUCHIYA	*
+175	TFpEzXonM-s	Akabane,Tokyo	Japan	20	30	WalkingJunkey	*	YOSHITAKA	*
+176			Japan	20	35	WalkingJunkey	*	YOSHITAKA	*
+177			Japan	20	40	WalkingJunkey	*	YOSHITAKA	*
+178			Japan	20	45	WalkingJunkey	*	YOSHITAKA	*
+179			Japan	20	50	WalkingJunkey	*	YOSHITAKA	*
+180	gAyivrO0jq8	Shibuya,Tokyo	Japan	20	55	WalkingJunkey	*	YOSHITAKA	*
+181	K50VUgcJt7s	Shinjuku,Tokyo	Japan	21	0	WalkingJunkey	*	YOSHITAKA	*
+182	jHcYbv4eGz8	Shibuya,Tokyo	Japan	21	5	WalkingJunkey	*	YOSHITAKA	*
+183	ycp278o__kU	Machida,Tokyo	Japan	21	10	WalkingJunkey	*	YURIA	*
+184			Japan	21	15	WalkingJunkey	*	YOSHITAKA	*
+185	xif_kLU22No	Machida,Tokyo	Japan	21	20	WalkingJunkey	*	YOSHITAKA	*
+186			Japan	21	25	WalkingJunkey	*	YOSHITAKA	*
+187			Japan	21	30	WalkingJunkey	*	YOSHITAKA	*
+188			Japan	21	35	WalkingJunkey	*	YOSHITAKA	*
+189			Japan	21	40	WalkingJunkey	*	YOSHITAKA	*
+190			Japan	21	45	WalkingJunkey	*	YOSHITAKA	*
+191			Japan	21	50	WalkingJunkey	*	YOSHITAKA	*
+192	0ENCobxWVhw	Shinjuku,Tokyo	Japan	21	55	WalkingJunkey	*	YOSHITAKA	*
+193	7cqlfQLWHnM	Yokohama,Kanagawa	Japan	22	0	WalkingJunkey	*	TSUCHIYA	*
+194	ZZ2SVcN5P0s	Enoshima,Kanagawa	Japan	22	5	WalkingJunkey	*	YOSHITAKA	*
+195	k9dcOQACOSg	Roppongi,Tokyo	Japan	22	10	WalkingJunkey	*	YOSHITAKA	*
+196	Q9bANx5ZM9I	Enoshima,Kanagawa	Japan	22	15	WalkingJunkey	*	YOSHITAKA	*
+197	v1dxXKvUvK4	Roppongi,Tokyo	Japan	22	20	WalkingJunkey	*	YOSHITAKA	*
+198			Japan	22	25	WalkingJunkey	*	YOSHITAKA	*
+199			Japan	22	30	WalkingJunkey	*	YOSHITAKA	*
+200	3lv_SDMe4Qw	Shinjuku,Tokyo	Japan	22	35	WalkingJunkey	*	YOSHITAKA	*
+201	VzXYhsHfQeo	Machida,Tokyo	Japan	22	40	WalkingJunkey	*	YOSHITAKA	*
+202	WN5pcaUeyD8	Shimoiida,Tokyo	Japan	22	45	WalkingJunkey	*	YOSHITAKA	*
+203			Japan	22	50	WalkingJunkey	*	YOSHITAKA	*
+204			Japan	22	55	WalkingJunkey	*	YOSHITAKA	*
+205	j3-cCkUGO1M	China-town,Kanagawa	Japan	23	0	WalkingJunkey	*	TSUCHIYA	*
+206			Japan	23	5	WalkingJunkey	*	YOSHITAKA	*
+207	iYDtHmdplKU	Enoshima,Kanagawa	Japan	23	10	WalkingJunkey	*	YOSHITAKA	*
+208	z9X9ZP3f7fY	Shibuya,Tokyo	Japan	23	15	WalkingJunkey	*	YOSHITAKA	*
+209			Japan	23	20	WalkingJunkey	*	YOSHITAKA	*
+210	qqXKlfWWfLI	Enoshim,Kanagawa	Japan	23	25	WalkingJunkey	*	YOSHITAKA	*
+211	s6Wbjk_y0pI	Shibuya,Tokyo	Japan	23	30	WalkingJunkey	*	YOSHITAKA	*
+212	gqVeDDwTEUk	Enoshim,Kanagawa	Japan	23	35	WalkingJunkey	*	YOSHITAKA	*
+213	UGPyliWoj-A	Shibuya,Tokyo	Japan	23	40	WalkingJunkey	*	YOSHITAKA	*
+214	Lmdegk8Sn60	Enoshim,Kanagawa	Japan	23	45	WalkingJunkey	*	YOSHITAKA	*
+215	PK2tQCf7f3c	Shibuya,Tokyo	Japan	23	50	WalkingJunkey	*	YOSHITAKA	*
+216	3lqZjaQorAY	Roppongi,Tokyo	Japan	23	55	WalkingJunkey	*	YOSHITAKA	*
+217	7cqlfQLWHnM	Yokohama,Kanagawa	Japan	0	0	WalkingJunkey	*	TSUCHIYA	*
+218	ZZ2SVcN5P0s	Enoshima,Kanagawa	Japan	0	5	WalkingJunkey	*	YOSHITAKA	*
+219	k9dcOQACOSg	Shibuya,Tokyo	Japan	0	10	WalkingJunkey	*	YOSHITAKA	*
+220	Q9bANx5ZM9I	Enoshima,Kanagawa	Japan	0	15	WalkingJunkey	*	YOSHITAKA	*
+221	v1dxXKvUvK4	Roppongi,Tokyo	Japan	0	20	WalkingJunkey	*	YOSHITAKA	*
+222	xy5q_lSTNrM	Shibuya,Tokyo	Japan	0	25	WalkingJunkey	*	YOSHITAKA	*
+223	KdUIlgRVnGU	Enoshima,Kanagawa	Japan	0	30	WalkingJunkey	*	YOSHITAKA	*
+224	pBh7-rosfm0	Shibuya,Tokyo	Japan	0	35	WalkingJunkey	*	YOSHITAKA	*
+225			Japan	0	40	WalkingJunkey	*	YOSHITAKA	*
+226	gMv9T_-oaoA	Roppongi,Tokyo	Japan	0	45	WalkingJunkey	*	YOSHITAKA	*
+227	fm4s6k1rjDI	Shibuya,Tokyo	Japan	0	50	WalkingJunkey	*	YOSHITAKA	*
+228	K-vGFWx3APY	Haneda,Kanagawa	Japan	0	55	WalkingJunkey	*	MASAKI	*
+229	A_9cInzLNuI	Akabane,Kanagawa	Japan	1	0	WalkingJunkey	*	TOSHITAKA	*
+230	vZMQz5Kh6J4	Shibuya,Tokyo	Japan	1	5	WalkingJunkey	*	YOSHITAKA	*
+231	6CLCFVegdrM	Yokohama,Kanagawa	Japan	1	10	WalkingJunkey	*	MASAKI	*
+232			Japan	1	15	WalkingJunkey	*	YOSHITAKA	*
+233	6qSqPJqRbrQ	Yokohama,Kanagawa	Japan	1	20	WalkingJunkey	*	MASAKI	*
+234	6H8PGwBZmsk	Kamakura,Kanagawa	Japan	1	25	WalkingJunkey	*	YOSHITAKA	*
+235			Japan	1	30	WalkingJunkey	*	YOSHITAKA	*
+236	_yMbJq47Uxw	Minatomirai,Kanagawa	Japan	1	35	WalkingJunkey	*	YOSHITAKA	*
+237	TXFNYtq2Lig	Kamakura,Kanagawa	Japan	1	40	WalkingJunkey	*	YOSHITAKA	*
+238	SbRqDTEGsAQ	Shibuya,Tokyo	Japan	1	45	WalkingJunkey	*	YOSHITAKA	*
+239	52FHAwBF-XY	Roppongi,Tokyo	Japan	1	50	WalkingJunkey	*	YOSHITAKA	*
+240	GQzvkZ0zki4	Shibuya,Tokyo	Japan	1	55	WalkingJunkey	*	YOSHITAKA	*
+241	V0U_6Wc0hPs	Daikokuhuto,Kanagawa	Japan	2	0	WalkingJunkey	*	MASAKI	*
+242	RbiVt8y4MzM	Roppongi,Tokyo	Japan	2	5	WalkingJunkey	*	YOSHITAKA	*
+243	cAvkROGz3wk	Shibuya,Tokyo	Japan	2	10	WalkingJunkey	*	YOSHITAKA	*
+244	mF1sUrAQ87A	Minatomirai,Kanagawa	Japan	2	15	WalkingJunkey	*	MASAKI	*
+245	Amal28X4z4k	Shibuya,Tokyo	Japan	2	20	WalkingJunkey	*	SHOTA	*
+246	sSZxcgZsink	Kamakura,Kanagawa	Japan	2	25	WalkingJunkey	*	YOSHITAKA	*
+247	moo1Y5xeS3Q	Golden-Yokocho,Tokyo	Japan	2	30	WalkingJunkey	*	YOSHITAKA	*
+248	-IVTyC4UjtU	Shibuya,Tokyo	Japan	2	35	WalkingJunkey	*	SHOTA	*
+249	XvhS9V_Q3Yo	Shimoiida,Kanagawa	Japan	2	40	WalkingJunkey	*	YOSHITAKA	*
+250	xejdYqVkxR0	Shinjuku,Tokyo	Japan	2	45	WalkingJunkey	*	SHOTA	*
+251	s8rBEU409Aw	Shibuya,Tokyo	Japan	2	50	WalkingJunkey	*	YOSHITAKA	*
+252	GAB4OQ9S-ZQ	Roppongi,Tokyo	Japan	2	55	WalkingJunkey	*	YOSHITAKA	*
+253	5uHuXvavZZ4	Miura-Hantou,Kanagawa	Japan	3	0	WalkingJunkey	*	YOSHITAKA	*
+254	LDPG5Cc2nBw	Azabu-juban,Tokyo	Japan	3	5	WalkingJunkey	*	YOSHITAKA	*
+255	ebkz7ObLCBQ	Kabuki-cho,Tokyo	Japan	3	10	WalkingJunkey	*	YOSHITAKA	*
+256	SnG-KCmcTfw	Roppongi,Tokyo	Japan	3	15	WalkingJunkey	*	YOSHITAKA	*
+257	3L1kekfTchg	Kabuki-cho,Tokyo	Japan	3	20	WalkingJunkey	*	SHOTA	*
+258	oAfkfORIoyE	Azabu-juban,Tokyo	Japan	3	25	WalkingJunkey	*	YOSHITAKA	*
+259			Japan	3	30	WalkingJunkey	*	YOSHITAKA	*
+260	Xd_lM95XkOg	Kabuki-cho,Tokyo	Japan	3	35	WalkingJunkey	*	YOSHITAKA	*
+261	TdXBzuE-Vhk	Roppongi,Tokyo	Japan	3	40	WalkingJunkey	*	YOSHITAKA	*
+262	hTFsF9RLTH0	Daikokuhuto,Kanagawa	Japan	3	45	WalkingJunkey	*	YOSHITAKA	*
+263	QvQeJvk5iK8	Azabudai,Tokyo	Japan	3	50	WalkingJunkey	*	YOSHITAKA	*
+264	McG6sY7Pe2Y	Jogashia,Kanagawa	Japan	3	55	WalkingJunkey	*	YOSHITAKA	*
+265	voZly2q0x6o	Azabu-dai,Tokyo	Japan	4	0	WalkingJunkey	*	YOSHITAKA	*
+266	ekMl0ssOGtA	Minatomirai,Masaki	Japan	4	5	WalkingJunkey	*	YOSHITAKA	*
+267	iZdTxZrcNHY	Kabuki-cho,Tokyo	Japan	4	10	WalkingJunkey	*	SHOTA	*
+268	s3KG5U4VMck	Daikokuhuto,Kanagawa	Japan	4	15	WalkingJunkey	*	MASAKI	*
+269	mjrL4UNFOw0	Shibuya,Tokyo	Japan	4	20	WalkingJunkey	*	YOSHITAKA	*
+270	YiedOHq74dQ	Golden-yokocho	Japan	4	25	WalkingJunkey	*	YOSHITAKA	*
+271	o4y7lmkyQes	Shibuya,Tokyo	Japan	4	30	WalkingJunkey	*	YOSHITAKA	*
+272	QnzwVXRSl7I	Daikokuhuto,Kanagawa	Japan	4	35	WalkingJunkey	*	MASAKI	*
+273	f00fhVnaoJ0	Jogashia,Kanagawa	Japan	4	40	WalkingJunkey	*	YOSHITAKA	*
+274	vE6MrDOt0lk	Akasaka,Tokyo	Japan	4	45	WalkingJunkey	*	YOSHITAKA	*
+275	lsDFBSC-Tk0	Masaki,Haneda	Japan	4	50	WalkingJunkey	*	YOSHITAKA	*
+276	GrbaI83VEaw	Akasaka,Tokyo	Japan	4	55	WalkingJunkey	*	YOSHITAKA	*
+277	ukkXemgvCNA	Jogashima,Kanagawa	Japan	5	0	WalkingJunkey	*	YOSHITAKA	*
+278	vAsqScUDNVc	Nagata-cho,Tokyo	Japan	5	5	WalkingJunkey	*	YOSHITAKA	*
+279			Japan	5	10	WalkingJunkey	*	YOSHITAKA	*
+280			Japan	5	15	WalkingJunkey	*	YOSHITAKA	*
+281	BysQGF3Fh5U	Chigawaki,Kanagawa	Japan	5	20	WalkingJunkey	*	YOSHITAKA	*
+282			Japan	5	25	WalkingJunkey	*	YOSHITAKA	*
+283			Japan	5	30	WalkingJunkey	*	YOSHITAKA	*
+284	hO5t0iIc7rc	Higashiginza,Tokyo	Japan	5	35	WalkingJunkey	*	YOSHITAKA	*
+285			Japan	5	40	WalkingJunkey	*	YOSHITAKA	*
+286	0W0vL1ujH4U	Higashiginza,Tokyo	Japan	5	45	WalkingJunkey	*	YOSHITAKA	*
+287			Japan	5	50	WalkingJunkey	*	YOSHITAKA	*
+288	Oz5r0sCRrwI	Tsukiji,Tokyo	Japan	5	55	WalkingJunkey	*	YOSHITAKA	*
