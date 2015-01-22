@@ -1,5 +1,5 @@
 id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
-1	QJPYLAwX1AA	Haneda,Kanagawa	Japan	6	0	WalkingJunkey	http://www.kafun.jp	Masaki	http://www.iino.jp
+1	keUg288KCGA	Haneda,Kanagawa	Japan	6	0	WalkingJunkey	http://www.kafun.jp	Masaki	http://www.iino.jp
 2	TYTR2XPZ7P4	Marunouchi,Tokyo	Japan	6	5	WalkingJunkey	http://www.google.com	YOSHITAKA	http://www.google.com
 3	FDjs7ITGlkE	Shimokitazawa,Tokyo	Japan	6	10	WalkingJunkey	*	YOSHITAKA	*
 4			Japan	6	15	WalkingJunkey	*	YOSHITAKA	*
@@ -40,7 +40,7 @@ id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
 39	2405f3DCcdI	Tsukiji-sijo,Tokyo	Japan	9	10	WalkingJunkey	*	YOSHITAKA	*
 40	mIMxhwghpc4	Yanaka,Tokyo	Japan	9	15	WalkingJunkey	*	YOSHITAKA	*
 41			Japan	9	20	WalkingJunkey	*	YOSHITAKA	*
-42	gPMuMNeRwzI	Yanaka,Tokyo	Japan	9	25	WalkingJunkey	*	YOSHITAKA	*
+42			Japan	9	25	WalkingJunkey	*	YOSHITAKA	*
 43	NzAXi3a6miI	Tsukiji-shijo,Tokyo	Japan	9	30	WalkingJunkey	*	YOSHITAKA	*
 44	c8CUjOv778A	Yanaka,Tokyo	Japan	9	35	WalkingJunkey	*	YOSHITAKA	*
 45	UCCj808WFB4	Tsukiji-shijo,Tokyo	Japan	9	40	WalkingJunkey	*	YOSHITAKA	*
@@ -72,13 +72,13 @@ id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
 71	WT9J0xPjoB4	Akihabara,Tokyo	Japan	11	50	WalkingJunkey	*	SHOTA	*
 72			Japan	11	55	WalkingJunkey	*	YOSHITAKA	*
 73	VsNbDHRzszg	Irabu,Okinawa	Japan	12	0	WalkingJunkey	*	CHIAKI	*
-74			Japan	12	5	WalkingJunkey	*	YOSHITAKA	*
+74	-1NNyLK1sG0	Asakusa,Tokyo	Japan	12	5	WalkingJunkey	*	AKANE	*
 75	mqCAy0UFiXA	Takadanobaba,Tokyo	Japan	12	10	WalkingJunkey	*	YUKAKO	*
 76	Fst4qrjODYs	Irabu,Okinawa	Japan	12	15	WalkingJunkey	*	CHIAKI	*
 77	iWNwtToVQMU	Akihabara,Tokyo	Japan	12	20	WalkingJunkey	*	YOSHITAKA	*
 78			Japan	12	25	WalkingJunkey	*	YOSHITAKA	*
 79			Japan	12	30	WalkingJunkey	*	YOSHITAKA	*
-80			Japan	12	35	WalkingJunkey	*	YOSHITAKA	*
+80	tzxXHnbQYjw	Asakusa,Tokyo	Japan	12	35	WalkingJunkey	*	NATSUKI	*
 81	xdIY7OWYxeo	Akihabara,Tokyo	Japan	12	40	WalkingJunkey	*	SHOTA	*
 82			Japan	12	45	WalkingJunkey	*	YOSHITAKA	*
 83	17OTgYHdW4w	Akihabara,Tokyo	Japan	12	50	WalkingJunkey	*	YOSHITAKA	*
@@ -98,11 +98,11 @@ id	youtubeId	city	country	hour	minute	director	directorUrl	walker	walkerUrl
 97	scH56TSzd1c	Kamakura,Kanagawa	Japan	14	0	WalkingJunkey	*	TSUCHIYA	*
 98			Japan	14	5	WalkingJunkey	*	YOSHITAKA	*
 99			Japan	14	10	WalkingJunkey	*	YOSHITAKA	*
-100			Japan	14	15	WalkingJunkey	*	YOSHITAKA	*
+100	3X9S-k09_UA	Shonandai,Kanagawa	Japan	14	15	WalkingJunkey	*	YOSHITAKA	*
 101	vuvh5zbbkM4	Kamakura,Kanagawa	Japan	14	20	WalkingJunkey	*	YOSHITAKA	*
-102			Japan	14	25	WalkingJunkey	*	YOSHITAKA	*
+102	pP_Xmf52qow	Asakusa,Tokyo	Japan	14	25	WalkingJunkey	*	YOSHITAKA	*
 103			Japan	14	30	WalkingJunkey	*	YOSHITAKA	*
-104			Japan	14	35	WalkingJunkey	*	YOSHITAKA	*
+104	attUP8sTbKs	Asakusa,Tokyo	Japan	14	35	WalkingJunkey	*	SHOTA	*
 105	ETEH9IQ4w78	Monzen-nakacho,Tokyo	Japan	14	40	WalkingJunkey	*	YUKINO	*
 106			Japan	14	45	WalkingJunkey	*	YOSHITAKA	*
 107	-6FDUu8CN_c	Monzen-nakacho	Japan	14	50	WalkingJunkey	*	YUKINO	*
