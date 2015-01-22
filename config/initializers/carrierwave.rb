@@ -2,8 +2,8 @@ CarrierWave::SanitizedFile.sanitize_regexp = /[^[:word:]\.\-\+]/
 CarrierWave.configure do |config|
   config.fog_credentials = {
     :provider               => 'AWS',
-    :aws_access_key_id      => 'AKIAII6NSWAUEVCKZ5GA',
-    :aws_secret_access_key  => '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',
+    :aws_access_key_id      => ENV['AWS_ENV'],
+    :aws_secret_access_key  => ENV['AWS_SECRET_ENV'],
     :region                 => 'ap-northeast-1'
   }
 
