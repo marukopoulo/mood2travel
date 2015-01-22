@@ -10,32 +10,33 @@
       </ul>
     </div>
   <% end %>
-
+  <div id = "upload" style = "width:400px">
   <div class="field">
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title ,:class => "form-control" %>
   </div>
   <div class="field">
     <%= f.label :place %><br>
-    <%= f.text_field :place %>
+    <%= f.text_field :place,:class => "form-control"  %>
   </div>
   <div class="field">
     <%= f.label :time %><br>
-    <%= f.text_field :time %>
+    <%= f.text_field :time,:class => "form-control"  %>
   </div>
   <div class="field">
     <%= f.label :walker %><br>
-    <%= f.text_field :walker %>
+    <%= f.text_field :walker ,:class => "form-control" %>
   </div>
   <div class="field">
     <%= f.label :director %><br>
-    <%= f.text_field :director %>
+    <%= f.text_field :director ,:class => "form-control" %>
   </div>
   <div class="field">
     <%= f.label :video %><br>
     <%= f.file_field :video, :accept => 'image/*' %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit :class => "btn btn-default" %>
   </div>
+    </div>
 <% end %>

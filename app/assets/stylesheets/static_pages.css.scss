@@ -6,7 +6,7 @@
 flash基本設定
 ****************************/
 html, body {
- background-color: white;
+ background-color: #f5f3ee;
  height:100%;
 margin: 0px ; 
 padding:0px; 
@@ -23,6 +23,72 @@ overflow:hidden;
   height:100%; 
   background-color: black;
 }
+
+/****************************
+recomand
+****************************/
+
+#recomand h2{
+  margin:30px auto 30px auto;
+  font-size:25px;
+  border:solid 3px;
+  padding:10px;
+  border-radius: 10px;
+  width:202px;
+}
+#recomand .moods{
+  margin-bottom:80px;
+}
+
+#recomand .sunrise-image{
+  height:330px;
+  background-image: url("/images/mood/sunrise.jpeg");
+  background-size:cover;
+  background-position:10% 70%;
+}
+
+#recomand .nightcity-image{
+  height:330px;
+  background-image: url("/images/mood/nightcity.png");
+  background-size:cover;
+}
+
+
+
+
+#recomand .mood-title{
+  width:300px;
+  margin: 40px auto 40px auto;
+  border-bottom:solid 3px;
+}
+
+#recomand .mood-title h3{
+  text-align: center;
+  font-size:30px;
+  font-weight:bold;
+}
+
+#recomand .row img{
+  margin-left:30px;
+}
+
+#recomand a:hover{
+  background-color: white;
+}
+#recomand .thumnail img{
+  width:400px;
+}
+#recomand .time p{
+  margin:10px 0 0 50px;
+}
+#recomand .director p{
+  margin:3px 0 0 50px;
+}
+#recomand .address p{
+  font-weight: bold;
+  margin:3px 0 0 50px;
+}
+
 
 
 

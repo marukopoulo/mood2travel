@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
   def upload
     @requestId = params[:requestId]
   end
+
+  def recomand
+  end
 end

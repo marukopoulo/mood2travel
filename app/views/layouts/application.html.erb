@@ -12,6 +12,33 @@
 
 
 <body>
+  <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><img style = "max-width:280px;margin-top:-6px;"src= "/images/icons/logo.png"  alt = "mood2travel"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/recomand">Seach From Mood</a></li>
+             <% if user_signed_in? %>
+              <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
+             <% else %>
+            <li><a href="/users/sign_up">Sign up</a></li>
+            <li ><a href="/users/sign_in">Sign in </a></li>
+            <% end %>
+            <li ><a href="/items/new">Uploads</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  <!--
         <div id = "header">
        <a href = "/" alt = "mood2travel"><img src= "/images/icons/logo.png"  alt = "mood2travel"></h1></a>
       <% if user_signed_in? %>
@@ -23,7 +50,7 @@
 
 <% end %>
       </div>
-<!--
+
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
 -->

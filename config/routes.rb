@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   root :to => 'static_pages#upload'
   get 'static_pages/home'
   get 'static_pages/about'
+  get 'recomand' => "static_pages#recomand"
   get '/:requestId' => "static_pages#upload" #rootpathにクエリを渡したら、動画の再生するよ。
 
   
