@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150120230110) do
+ActiveRecord::Schema.define(version: 20150122200536) do
 
   create_table "admin_users", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -54,6 +54,8 @@ ActiveRecord::Schema.define(version: 20150120230110) do
     t.string   "walkerUrl"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "address"
+    t.string   "thumnail_url"
   end
 
   create_table "users", force: true do |t|
