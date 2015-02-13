@@ -1,0 +1,5 @@
+<% if movie.favorite_for current_user %>
+<%= link_to "Favorite", fav_path(fav), method: :delete, remote: true , class: 'btn btn-xs btn-warning' %>
+<% else %>
+<%= link_to "Favorite", favs_path(movie_id: movie), method: :post, remote: true, class: 'btn btn-xs btn-default' %>
+<% end %>

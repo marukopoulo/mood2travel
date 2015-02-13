@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150122200536) do
+ActiveRecord::Schema.define(version: 20150210102510) do
 
   create_table "admin_users", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -29,6 +29,22 @@ ActiveRecord::Schema.define(version: 20150122200536) do
   end
 
   add_index "admin_users", ["email"], name: "index_admin_users_on_email", unique: true
+
+  create_table "favorites", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "movie_id"
+    t.integer  "value"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "favs", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "movie_id"
+    t.integer  "value"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "items", force: true do |t|
     t.string   "title"
@@ -56,6 +72,8 @@ ActiveRecord::Schema.define(version: 20150122200536) do
     t.datetime "updated_at"
     t.string   "address"
     t.string   "thumnail_url"
+    t.float    "latitude"
+    t.float    "longitude"
   end
 
   create_table "users", force: true do |t|

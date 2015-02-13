@@ -1,0 +1,29 @@
+<h1>Listing favs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Movie</th>
+      <th>Value</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @favs.each do |fav| %>
+      <tr>
+        <td><%= fav.user_id %></td>
+        <td><%= fav.movie_id %></td>
+        <td><%= fav.value %></td>
+        <td><%= link_to 'Show', fav %></td>
+        <td><%= link_to 'Edit', edit_fav_path(fav) %></td>
+        <td><%= link_to 'Destroy', fav, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Fav', new_fav_path %>

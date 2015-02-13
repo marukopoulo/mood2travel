@@ -1,0 +1,105 @@
+<p id="notice"><%= notice %></p>
+
+<div class="container-fluid">
+  <div class= "row">
+    <div class = "col-md-5">
+      <p>
+        <a href= "http://localhost:3000/<%= @movie.videoId %>">
+        <img src="<%= @movie.thumnail_url %>" style = "width:500px"></a>
+      </p>
+
+
+        <% if @movie.hour <10 %>
+        <% h =  "0" + @movie.hour.to_s %>
+        <% else %>
+        <% h =  @movie.hour.to_s %>
+        <% end %>
+
+        <% if @movie.minute <10 %>
+        <% m =  "0" + @movie.minute.to_s %>
+        <% else %>
+        <% m = @movie.minute.to_s %>
+        <% end %>
+
+      
+
+      <div id = "movie_<%= @movie.id %>">
+        <%= render 'favs/favorite_button', movie: @movie, fav: @movie.favorite_for(current_user) %>
+      </div>
+      
+      <p>
+        <strong>Time:</strong>
+        <%= h +":" + m %>
+      </p>
+
+      <p>
+        <strong>City:</strong>
+        <%= @movie.city %>
+      </p>
+
+      <p>
+        <strong>Country:</strong>
+        <%= @movie.country %>
+      </p>
+
+      <p>
+        <strong>Director:</strong>
+        <%= @movie.director %>
+      </p>
+
+      <p>
+        <strong>Walker:</strong>
+        <%= @movie.walker %>
+      </p>
+
+
+
+    </div>
+
+    <div class = "col-md-7">
+
+      <div>
+  <div id="map" style='height: 400px;'></div>
+</div>
+
+<script type="text/javascript">
+handler = Gmaps.build('Google');
+handler.buildMap({ provider: { 
+  maxZoom: 15,
+  disableDefaultUI: true,
+}, internal: {id: 'map'}}, function(){
+  markers = handler.addMarkers([
+    {
+      "lat": <%= @movie.latitude %>,
+      "lng": <%= @movie.longitude %>,
+      "picture": {
+        "url": "https://addons.cdn.mozilla.net/img/uploads/addon_icons/13/13028-64.png",
+        "width":  1,
+        "height": 1
+      },
+    }
+  ]);
+  handler.bounds.extendWith(markers);
+  handler.fitMapToBounds();
+});
+</script>
+    </div>
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+

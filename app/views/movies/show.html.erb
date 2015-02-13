@@ -56,9 +56,22 @@
 </p>
 
 <p>
+  <strong>longtitude</strong>
+  <%= @movie.longitude %>
+</p>
+
+<p>
   <strong>Thumnail_URL</strong>
+  <a href= "http://localhost:3000/<%= @movie.videoId %>">
+  <img src="<%= @movie.thumnail_url %>" style = "width:300px"></a>
   <%= @movie.thumnail_url %>
 </p>
+
+<% @movie.favs.each do |fav| %>
+<li><%= fav.user_id %></li>
+<li><%= fav.value %></li>
+<% end %>
+<%= render 'favs/favorite_button', movie: @movie, fav: @movie.favorite_for(current_user) %>
 
 <%= link_to 'Edit', edit_movie_path(@movie) %> |
 <%= link_to 'Back', movies_path %>

@@ -1,0 +1,64 @@
+<div id = "user_page">
+<% provide(:title, @user.email) %>
+<h1><%= @user.email %>さんのマイページ</h1>
+<h2>お気に入り動画一覧</h2>
+
+<% if @user.favs.present? %>
+
+<% @user.favs.each do |fav| %>
+<div class = "col-md-3">
+<% movie = Movie.find(fav.movie_id) %>
+<a href= "http://localhost:3000/<%= movie.videoId %>">
+        <img src="<%= movie.thumnail_url %>" style = "width:300px"></a>
+      </p>
+ <% if movie.hour <10 %>
+        <% h =  "0" + movie.hour.to_s %>
+        <% else %>
+        <% h =  movie.hour.to_s %>
+        <% end %>
+
+        <% if movie.minute <10 %>
+        <% m =  "0" + movie.minute.to_s %>
+        <% else %>
+        <% m = movie.minute.to_s %>
+<% end %>
+      
+      <% if user_signed_in? %>
+      <div id = "movie_<%= movie.id %>">
+        <%= render 'favs/favorite_button', movie: movie, fav: movie.favorite_for(current_user) %>
+      </div>
+      <% end %>
+
+<p>
+        <strong>Time:</strong>
+        <%= h +":" + m %>
+      </p>
+
+      <p>
+        <strong>City:</strong>
+        <%= movie.city %>
+      </p>
+
+      <p>
+        <strong>Country:</strong>
+        <%= movie.country %>
+      </p>
+
+      <p>
+        <strong>Director:</strong>
+        <%= movie.director %>
+      </p>
+
+      <p>
+        <strong>Walker:</strong>
+        <%= movie.walker %>
+      </p>
+      <p><a href = "/video/<%= movie.videoId %>">>Detail</a></p>
+</div>
+<% end %>
+
+<% else %>
+<p style ="text-align:center">お気に入り動画はまだありません。登録してください。<p>
+<% end %>
+
+</div>

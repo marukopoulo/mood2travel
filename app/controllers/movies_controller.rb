@@ -1,5 +1,6 @@
 class MoviesController < ApplicationController
   before_action :set_movie, only: [:show, :edit, :update, :destroy]
+  before_action :set_view_movie, only: [:view]
 
   # GET /movies
   # GET /movies.json
@@ -10,6 +11,15 @@ class MoviesController < ApplicationController
   # GET /movies/1
   # GET /movies/1.json
   def show
+  end
+
+  def view
+    @hash = Gmaps4rails.build_markers(@movie) do |user, marker|
+      marker.lat user.hour
+      marker.lng user.minute
+      marker.infowindow user.address
+      marker.json({title: user.videoId})
+    end
   end
 
   # GET /movies/new
@@ -27,7 +37,7 @@ class MoviesController < ApplicationController
   def create
     @movie = Movie.new(movie_params)
     @movie.address = @movie.city + " " + @movie.country
-    @movie.thumnail_url = "http://www.hogehoge.com/" + @movie.videoId.to_s
+    @movie.thumnail_url = "https://mood2travel.s3.amazonaws.com/thumnails/" + @movie.videoId.to_s + ".png"
 
     respond_to do |format|
       if @movie.save
@@ -68,6 +78,10 @@ class MoviesController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_movie
       @movie = Movie.find(params[:id])
+    end
+
+    def set_view_movie
+      @movie = Movie.find_by_videoId(params[:videoId])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
