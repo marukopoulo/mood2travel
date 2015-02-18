@@ -1,7 +1,7 @@
 <div id = "user_page">
 <% provide(:title, @user.email) %>
 <h1><%= @user.email %>さんのマイページ</h1>
-<%= user.uid %>
+<%= @user.uid %>
 <h2>お気に入り動画一覧</h2>
 
 <% if @user.favs.present? %>
