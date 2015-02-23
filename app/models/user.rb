@@ -12,7 +12,7 @@ def self.find_for_oauth(auth)
       user = User.create(
         uid:      auth.uid,
         provider: auth.provider,
-        email:    User.dummy_email(auth),
+        email:    auth.info.email,
         password: Devise.friendly_token[0, 20]
       )
     end
