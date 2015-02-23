@@ -10,6 +10,7 @@ def self.find_for_oauth(auth)
 
     unless user
       user = User.create(
+        name: auth.extra.raw_info.name,
         uid:      auth.uid,
         provider: auth.provider,
         email:    auth.info.email,
