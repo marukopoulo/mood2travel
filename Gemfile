@@ -25,6 +25,7 @@ gem 'twitter-bootstrap-rails' # Bootstrapの本体
 gem 'i18n'
 gem "gmaps4rails"
 gem "geocoder"
+ gem "koala"
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
