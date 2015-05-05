@@ -26,6 +26,7 @@ gem 'i18n'
 gem "gmaps4rails"
 gem "geocoder"
  gem "koala"
+ gem 'acts-as-taggable-on', '~> 3.4'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'

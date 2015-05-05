@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get 'static_pages/about'
   get 'recomand' => "static_pages#recomand"
   get '/:requestId' => "static_pages#upload" #rootpathにクエリを渡したら、動画の再生するよ。
+  get 'tags/:tag', to: 'movies#list', as: :tag
 
   
   devise_for :admin_users

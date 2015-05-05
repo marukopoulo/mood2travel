@@ -52,7 +52,10 @@
         <%= @movie.walker %>
       </p>
 
-
+      <p>
+          <strong>Tags:</strong>
+          <%= raw @movie.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
+      </p>
 
     </div>
 

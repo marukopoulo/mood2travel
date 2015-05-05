@@ -5,7 +5,19 @@ class MoviesController < ApplicationController
   # GET /movies
   # GET /movies.json
   def index
+    if params[:tag]
+      @movies = Movie.tagged_with(params[:tag])
+    else
     @movies = Movie.all
+  end
+  end
+
+  def list
+    if params[:tag]
+      @movies = Movie.tagged_with(params[:tag])
+    else
+    @movies = Movie.all
+  end
   end
 
   # GET /movies/1
@@ -86,6 +98,6 @@ class MoviesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def movie_params
-      params.require(:movie).permit(:videoId, :youtubeID, :city, :country, :hour, :minute, :director, :directorUrl, :walker, :walkerUrl,:address,:thumnail_url)
+      params.require(:movie).permit(:videoId, :youtubeID, :city, :country, :hour, :minute, :director, :directorUrl, :walker, :walkerUrl,:address,:thumnail_url,:tag_list => [])
     end
 end
