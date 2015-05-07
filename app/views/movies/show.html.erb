@@ -67,6 +67,13 @@
   <%= @movie.thumnail_url %>
 </p>
 
+<p>
+  <strong>Tag_List</strong>
+ <% @movie.tag_list.each do |tag|  %>
+ <li><%= tag %></li>
+ <% end %>
+</p>
+----------------------------------------------
 <% @movie.favs.each do |fav| %>
 <li><%= fav.user_id %></li>
 <li><%= fav.value %></li>

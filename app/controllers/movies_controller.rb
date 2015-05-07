@@ -37,13 +37,31 @@ class MoviesController < ApplicationController
   # GET /movies/new
   def new
     @movie = Movie.new
+  end
+
+  def add_tags
+    movies = Movie.all
+    girl_walkers = ["YUKINO","YUKAKO","AKANE","NATSUKI","TUCHIYA","KURUMI","CHIAKI","MIZUKI","YURIA"]
+    movies.each do |movie|
+      girl_walkers.each do |walker|
+          if movie.walker == walker
+          movie.tag_list += "girl"
+          end
+
+           movie.tag_list +=  "," + "morning" if movie.hour <11 && movie.hour>4
+           movie.tag_list +=  "," + "midnight" if movie.hour <4 && movie.hour>= 0
+           movie.tag_list +=  "," + "night" if movie.hour < 24 && movie.hour> 18
+           movie.tag_list += "," + movie.city
+      end
+      movie.save
+    end
 
   end
 
   # GET /movies/1/edit
   def edit
-  end
 
+  end
   # POST /movies
   # POST /movies.json
   def create
@@ -98,6 +116,6 @@ class MoviesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def movie_params
-      params.require(:movie).permit(:videoId, :youtubeID, :city, :country, :hour, :minute, :director, :directorUrl, :walker, :walkerUrl,:address,:thumnail_url,:tag_list => [])
+      params.require(:movie).permit(:videoId, :youtubeID, :city, :country, :hour, :minute, :director, :directorUrl, :walker, :walkerUrl,:address,:thumnail_url,:tag_list)
     end
 end

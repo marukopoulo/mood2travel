@@ -13,6 +13,7 @@
       <th>Directorurl</th>
       <th>Walker</th>
       <th>Walkerurl</th>
+      <th>tags</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -30,6 +31,7 @@
         <td><%= movie.directorUrl %></td>
         <td><%= movie.walker %></td>
         <td><%= movie.walkerUrl %></td>
+        <td><%= raw movie.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></td>
         <td><%= link_to 'Show', movie %></td>
         <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
         <td><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' } %></td>

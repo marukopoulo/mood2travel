@@ -4,7 +4,8 @@ class StaticPagesController < ApplicationController
   end
 
   def about
-      @users = User.all
+    @users = User.all
+
   end
 
   def upload

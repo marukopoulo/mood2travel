@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'users/show'
 
   resources :favs
-
+ get 'movies/add_tags' => 'movies#add_tags'
   resources :movies
 
 
@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   get 'recomand' => "static_pages#recomand"
   get '/:requestId' => "static_pages#upload" #rootpathにクエリを渡したら、動画の再生するよ。
   get 'tags/:tag', to: 'movies#list', as: :tag
+
 
   
   devise_for :admin_users

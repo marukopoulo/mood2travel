@@ -13,14 +13,19 @@
           <div class = "time"><p>06:00</p></div>
           <div class = "director"><p>Directed by walking junkie</p></div>
           <div class = "address"><p>Japan,Kanagawa,Haneda</p></div>
+          <% movie = Movie.find(79) %>
+          <div class = "tag_info"><p><strong>tags:</strong><%= raw movie.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></p></div>
           <div class = "info"><p><a href = "/1">>Play</a></p></div>
           <div class = "info"><p><a href = "/video/1">>Detail</a></p></div>
+
         </div>
         <div class="col-md-4">
           <div class = "thumnail"><a href = "/277"><img  src = "/images/thumnail/277.png"></a> </div>
           <div class = "time"><p>06:15</p></div>
           <div class = "director"><p>Directed by walking junkie</p></div>
           <div class = "address"><p>Japan,Kanagawa,Jougashima</p></div>
+          <% movie = Movie.find(79) %>
+          <div class = "tag_info"><p><strong>tags:</strong><%= raw movie.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></p></div>
           <div class = "info"><p><a href = "/277">>Play</a></p></div>
           <div class = "info"><p><a href = "/video/277">>Detail</a></p></div>
         </div>
@@ -29,6 +34,8 @@
           <div class = "time"><p>06:05</p></div>
           <div class = "director"><p>Directed by walking junkie</p></div>
           <div class = "address"><p>Japan,Tokyo,Koukyo-mae</p></div>
+          <% movie = Movie.find(23) %>
+          <div class = "tag_info"><p><strong>tags:</strong><%= raw movie.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></p></div>
           <div class = "info"><p><a href = "/2">>Play</a></p></div>
           <div class = "info"><p><a href = "/video/2">>Detail</a></p></div>
         </div>
@@ -47,6 +54,8 @@
           <div class = "time"><p>19:00</p></div>
           <div class = "director"><p>Directed by walking junkie</p></div>
           <div class = "address"><p>Japan,Tokyo,America-yokochou</p></div>
+          <% movie = Movie.find(122) %>
+          <div class = "tag_info"><p><strong>tags:</strong><%= raw movie.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></p></div>
           <div class = "info"><p><a href = "/157">>Play</a></p></div>
           <div class = "info"><p><a href = "/video/157">>Detail</a></p></div>
         </div>
@@ -55,6 +64,8 @@
           <div class = "time"><p>20:00</p></div>
           <div class = "director"><p>Directed by walking junkie</p></div>
           <div class = "address"><p>Japan,Tokyo,Shibuya</p></div>
+          <% movie = Movie.find(138) %>
+          <div class = "tag_info"><p><strong>tags:</strong><%= raw movie.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></p></div>
           <div class = "info"><p><a href = "/169">>Play</a></p></div>
           <div class = "info"><p><a href = "/video/169">>Detail</a></p></div>
         </div>
@@ -63,6 +74,8 @@
           <div class = "time"><p>03:35</p></div>
           <div class = "director"><p>Directed by walking junkie</p></div>
           <div class = "address"><p>Japan,Tokyo,Shinjuku</p></div>
+          <% movie = Movie.find(93) %>
+          <div class = "tag_info"><p><strong>tags:</strong><%= raw movie.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></p></div>
           <div class = "info"><p><a href = "/260">>Play</a></p></div>
           <div class = "info"><p><a href = "/video/260">>Detail</a></p></div>
         </div>
